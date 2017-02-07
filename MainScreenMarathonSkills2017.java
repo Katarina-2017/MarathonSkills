@@ -44,27 +44,7 @@ public static void main(String[] args) {
                GridBagConstraints.NORTH,GridBagConstraints.HORIZONTAL,new Insets(0,0,5,0),800,180));
        panel.setLayout(new GridBagLayout());
            
-       JLabel label1 = new JLabel("MARATHON SKILLS 2017");
-       Font fontLabel1 = new Font("Open Sans Semibold",Font.BOLD,40);
-       label1.setFont(fontLabel1);
-       label1.setForeground(new Color(255,255,255));
-       panel.add(label1, new GridBagConstraints(0,0,1,1,0,1,
-               GridBagConstraints.NORTH,GridBagConstraints.HORIZONTAL,new Insets(50,0,0,0),10,10));
        
-       
-       JLabel label2 = new JLabel("Москва, Россия");
-       Font font1 = new Font("Open Sans Semibold",Font.ITALIC,18);
-       label2.setFont(font1);
-       label2.setForeground(Color.WHITE);
-       panel.add(label2, new GridBagConstraints(0,1,1,1,0,1,GridBagConstraints.NORTH,GridBagConstraints.HORIZONTAL,
-       new Insets(10,0,5,0),0,0));
-       
-       JLabel label3 = new JLabel("вторник 14 февраля 2017");
-       Font font2 = new Font("Open Sans Semibold",Font.ITALIC,18);
-       label3.setFont(font2);
-       label3.setForeground(Color.WHITE);
-       panel.add(label3, new GridBagConstraints(0,2,1,1,0,1,GridBagConstraints.NORTH,GridBagConstraints.HORIZONTAL,
-       new Insets(5,0,5,0),0,0));
           
         JButton button1 = new JButton("Я хочу стать бегуном");
         Font fontButton1 = new Font("Open Sans Light",Font.BOLD,18);
